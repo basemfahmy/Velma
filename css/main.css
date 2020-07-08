@@ -1,0 +1,270 @@
+/*my framework*/
+body{font-family: 'Source Sans Pro', sans-serif; }
+.container{ max-width: 1200px;}
+h1,h2,h3,h4,h5{text-transform: capitalize};
+h2{color: #3d4449; font-size: 40px}
+h3{color: #3d4449; font-size: 25px}
+p{color: #7f888f;line-height: 27px}
+.main-box{padding: 55px 0px 55px 0px;text-align: center}
+.main-box h2{margin-bottom: 50px}
+.my-button{
+     color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 35px 15px 35px;
+    border-radius: 4px;
+    outline: none;
+ 
+}
+.my-button:hover{
+    transition: all 0.3s ease;
+    text-decoration: none;
+    background: none;
+    outline: none;
+}
+.my-button:focus{outline: none}
+/*my framework*/
+
+/*navbar*/
+.bg-light { 
+    background-color: #3b414d !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+.ml-auto, .mx-auto {margin-right: 100px;}
+.navbar-light .navbar-brand{font-size: 30px;}
+.navbar-light .navbar-brand,.navbar-light .navbar-brand:focus,.navbar-light .navbar-brand:hover{outline: none}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    margin-right: 20px; 
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+transition:all 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:focus{color:#fff}
+.navbar-light .navbar-toggler {
+    outline: none
+}
+.navbar-light .navbar-toggler i{
+    font-size: 25px; 
+}
+/*navbar*/
+
+/*start go-up button*/
+.go-up{
+    position: fixed;
+    bottom: 40px;
+    z-index: 333;
+    right: 16px; 
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    outline: none;
+    display: none;
+}
+.go-up:focus{outline: none;}
+/*end go-up button*/
+
+/*header*/
+.header{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 100%;
+}
+.header .info{padding-top: 150px;}
+.header .info h3{
+    text-align: center;
+    font-size: 18px;
+    width: 11%;
+    color: white;
+    padding: 13px;
+    padding-bottom: 18px;
+    border-radius: 3px;
+}
+.header .info-card-body{
+    background-color: white;
+    width: 40%;
+    padding: 30px 25px 40px 25px;
+    margin-top: -11px;
+    border-radius: 3px;
+}
+.header .info h2{color: #3d4449;font-size: 34px; }
+.header .info a{  text-transform: capitalize;font-size: 18px; }
+/*header*/
+
+/*courses*/
+.courses .buttons{ margin-bottom: 50px; margin-top: -15px;}
+.courses .buttons button{
+    background: none;
+    padding: 10px 20px 10px 20px;
+    text-transform: capitalize; 
+    outline: none;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+.courses .buttons button:hover{
+    color: white;
+    transition: all 0.3s ease
+}
+.courses .buttons .active{
+    color: white;
+}
+.courses .buttons button:nth-child(1){  /*only for first button*/
+    padding: 10px 35px 10px 35px;
+}
+
+.courses a:hover{text-decoration: none}
+.courses .course-card{text-align: left; background-color: white ;margin-bottom: 42px; }
+.courses .course-card .image{overflow: hidden}
+.courses .course-card .image img{
+    width: 100%;   
+    transition: all 0.3s ease; /*for transform :scale with jquery*/
+}
+.courses .course-card .info{padding: 20px 15px 20px 15px;border: 1px solid #eceef0}
+.courses .course-card .info p{margin: 0px 0px 10px 0px}
+.courses .course-card .info .price{font-size: 23px;}
+.courses .course-card .info .price span{ display: inline-block;float: right;}
+/*courses*/
+
+/*about*/
+.about{padding-bottom: 120px;}
+.about .info {text-align: left;  padding-left: 25px;}
+.about .info h3{ font-size: 40px;margin-bottom: 20px;}
+.about .benefits {margin-top: 10px}
+.about .benefits h3{font-size: 32px;margin-bottom: 20px;}
+.about .benefits p{
+text-transform: capitalize;
+overflow: hidden;
+}
+.about .items{  margin-left: -14px;}
+.about .items i{
+    float: left;
+    margin-left: 95px;
+    position: relative;
+    width: 13%;
+    top: 6px;;
+}
+.about .items span{
+    float: left;
+    margin-left: 15px;
+}
+.about img{width: 90%}
+/*about*/
+
+/*numbers*/
+.numbers{text-align: left}
+.numbers .info .item {margin-bottom: 30px ;}
+.numbers .info .item span i{
+    position: relative;
+    top: -30px;
+    left: 20px;
+    font-size: 30px;
+}
+.numbers .info .item .text{
+    display:inline-block;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+.numbers .info .item .text p{font-size: 17px;}
+.numbers .info .item .text p:nth-child(1){ font-size: 45px}
+.numbers img{
+    width: 50%;
+    margin-top:15px;
+    margin-left: 200px;
+}
+/*numbers*/
+
+/*clients*/
+.clients{padding-bottom: 70px; }
+.clients .info p{margin: auto; width: 60%;}
+.clients .info img{width: 10%; border-radius: 50%;margin: 25px 0px 14px 0px;}
+.clients .info h3{font-size: 20px}
+.carousel-indicators{bottom: -60px}
+.clients .carousel-indicators li{
+    background: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.clients .carousel-control-next , .clients .carousel-control-prev{display: none}
+/*clients*/
+
+/*our price*/
+.our-price{text-transform: capitalize;}
+.our-price .price-card{ 
+    border-radius: 4px;  
+    padding-bottom: 25px;
+     border: 2px solid #eceef0; 
+}
+.our-price h3{  padding: 10px; padding-top: 30px; font-size: 27px;}
+.our-price .price{font-size: 22px;padding: 10px 0px 10px 0px; color: #3d4449}
+.our-price .info{ padding-bottom: 20px;}
+.our-price .my-button{padding: 12px 25px 12px 25px;margin-top: 20px;}
+/*our price*/
+
+/*blog */
+.blog{ padding-bottom: 70px; }
+.blog .blog-card{text-align: left; background-color: white ;margin-bottom: 0px; }
+.blog .blog-card .image {overflow: hidden}
+.blog .blog-card .image img { /*for transform :scale with jquery*/
+    width:100% ;
+    transition: all 0.3s ease  ;  
+} 
+
+.blog .blog-card a{text-decoration: none}
+.blog .blog-card .image{overflow: hidden} 
+.blog .blog-card .image img{width: 100%}
+.blog .blog-card .info{padding: 20px 15px 10px 15px;border: 1px solid #eceef0}
+.blog .blog-card .info p{margin: 0px 0px 10px 0px}
+.blog .blog-card .info .date{text-transform: capitalize; }
+.blog .blog-card .info a.more{
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+    padding: 5px 0px 20px 0px
+}
+/*blog*/
+
+/*faqs*/
+.faqs h2 {margin-bottom: 60px}
+.faqs section {
+    background-color:#F5F5F5 ;
+    text-align: left;
+    padding: 20px 30px 20px 30px;
+    position: relative;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.faqs section h3{font-size: 22px}
+.faqs section i{
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    color: #3d4449;
+    top: 26px;
+    right: 30px;
+}
+.faqs section p{
+    display: none;
+    line-height: 31px;
+    padding-top: 10px;
+    width: 95%;
+    font-size: 17px;
+}
+/* faqs */
+
+/*footer*/
+.footer{text-align: center; padding: 30px 0px 8px 0px;background-color: #3b414d }
+.footer p{color: white; text-transform: capitalize}
+/*footer*/

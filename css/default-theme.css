@@ -1,0 +1,40 @@
+.my-button,
+.go-up,
+.header .info h3,
+.courses .buttons button:hover,
+.courses .buttons .active,
+.clients .carousel-indicators .active 
+{background-color:#f95555;}
+
+.navbar-light .navbar-toggler {border: 1.5px solid #f95555;}
+
+.header .info-card-body,
+.about .info{border-left: 4px solid #f95555;}
+
+
+.my-button:hover,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover, 
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-nav .show > .nav-link, 
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-toggler i,
+.header .info a,
+.courses .buttons button,
+.courses .course-card .info .price,
+.about .items i,
+.numbers .info .item span i,
+.numbers .info .item .text p:nth-child(1),
+.our-price h3,
+.blog .blog-card .info .date,
+.blog .blog-card .info a.more,
+.footer p a {color:#f95555;}
+
+.my-button,
+.courses .buttons button,
+.go-up{border: 1px solid #f95555;}
+
+.clients .carousel-indicators li{ border: 2px solid #f95555;}

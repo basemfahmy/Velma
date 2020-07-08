@@ -1,0 +1,83 @@
+/*start xs screen*/
+@media(max-width:575px){
+.header{height: auto;padding-bottom: 80px; }
+.header .info {padding-top: 130px;}
+.header .info h3 {width: 60%;}
+.header .info-card-body {width: 90%;}
+.header .info h2 {font-size: 30px;}
+.courses .buttons { margin-bottom: 25px;}    
+.courses .buttons button { margin-bottom: 15px;}
+.courses .last-card{margin-bottom: -45px} /*for last one only*/ 
+.about{padding-bottom: 55px;}    
+.about .info {padding-left: 0px;border-left:none ; text-align: center}
+.about .info h3 {font-size: 34px;}
+.about .items { margin-left: -53px;}
+.about .benefits {margin-top: 20px;text-align: center;}    
+.about img ,.numbers img{display: none;}
+.about .my-button{position: relative;top: 40px;}
+.clients .info p {width: 100%;}    
+.clients h2{margin-bottom: 30px;}
+.clients .info img {width: 30%;}    
+.numbers{text-align: center;} 
+.numbers .info .item {margin-bottom: 50px;}  
+.numbers .info .last-item{margin-bottom: -65px}  /*for last one only*/   
+.numbers .info .item .text{margin-left: 0px}    
+.numbers .info .item span i { left: 0px; display: block;}
+.our-price .price-card {margin-bottom: 30px;} 
+.our-price .last-price{margin-bottom: -43px} /*for last one only*/
+.blog .blog-card { margin-bottom: 33px;} 
+.blog .last-blog{margin-bottom: -60px}    /*for last one only*/
+.faqs section h3.last{width: 90%}    /*for last one only*/
+.go-up {display: none !important}    
+}
+/*end xs screen*/
+
+/*start sm screen */
+@media(min-width:576px) and (max-width:767px){
+.header{height: auto;padding-bottom: 100px; }
+.header .info h3 {width: 35%;}
+.header .info-card-body {width: 90%;}
+.courses .buttons button { margin-bottom: 20px;}   
+.courses .last-card{margin-bottom: -45px} /*for last one only*/     
+.about .info {padding-left: 0px;border-left:none ; }
+.about {padding-bottom: 5px;}    
+.about .items { margin-left: -80px;}
+.about img{display: none;}
+.about a{margin-top: 20px;display: inline-block;}
+.clients .info p {width: 100%;} 
+.clients .info img {width: 15%;}    
+.numbers {padding-bottom: 0px;}
+.numbers img { width: 55%;margin-left: 100px;}  
+.numbers .info .item span i {  left: 51px} 
+.numbers .info .item {margin-bottom: 50px;}  
+.our-price .price-card {margin-bottom: 30px;} 
+.our-price {padding-bottom: 0px;}
+.blog .blog-card { margin-bottom: 33px;} 
+.blog { padding-bottom: 10px;}   
+}
+/*end sm screen */
+
+/*start md screen*/
+@media(min-width:768px) and (max-width:991px){
+.header{height: auto;padding-bottom: 110px; }
+.header .info h3 {width: 30%;}    
+.header .info-card-body { width: 70%;} 
+.about .info h3 { font-size: 30px;}  
+.about .items { margin-left: -85px;}
+.clients .info p { width: 100%;}
+.numbers .info .item .text{display: block} 
+.numbers .info .item {margin-bottom: 80px;}
+.numbers .info .item span i {left: 49px;}
+.numbers img {margin-left: 140px;}
+}
+/*end md screen*/
+
+/*start lg screen*/
+@media(min-width:992px) and (max-width:1199px){
+.header{height: auto;padding-bottom: 140px; }
+.header .info h3 { width: 25%;}
+.header .info-card-body {width: 55%;}
+.about .items {  margin-left: -53px;}
+.clients .info p {width: 80%;}
+}
+/*end lg screen*/
