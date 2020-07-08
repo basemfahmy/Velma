@@ -34,7 +34,7 @@ p{color: #7f888f;line-height: 27px}
 
 }
 .ml-auto, .mx-auto {margin-right: 100px;}
-.navbar-light .navbar-brand{font-size: 30px;}
+.navbar-light .navbar-brand{font-size: 30px; text-transform: capitalize;}
 .navbar-light .navbar-brand,.navbar-light .navbar-brand:focus,.navbar-light .navbar-brand:hover{outline: none}
 .navbar-light .navbar-nav .nav-link{
     color: #fff;
